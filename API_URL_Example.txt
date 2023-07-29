@@ -1,0 +1,4 @@
+Please change the part after "apiKey=" to reflect your own API which you will get from newsapi.org after creating a free account there.
+
+https://newsapi.org/v2/everything?q=tesla&sortBy=publishedAt&apiKey=523011253c5341d898a5e25420a172ee
+
