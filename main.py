@@ -15,7 +15,7 @@ request = requests.get(url)
 content = request.json()
 
 body = ""
-for article in content["articles"]:
+for article in content["articles"][:20]:
     if article["title"] and article["description"] is not None:
         body = body + article["title"] + "\n" \
                + article["description"] + "\n" + \
